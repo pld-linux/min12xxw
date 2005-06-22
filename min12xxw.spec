@@ -1,5 +1,5 @@
 Summary:	Minolta PagePro 1[23]xxW printers driver
-Summary(pl):	Sterownik drukarek Minolta PagePro 1[23]xxW
+Summary(pl):	Sterownik dla drukarek Minolta PagePro 1[23]xxW
 Name:		min12xxw
 Version:	0.0.7
 Release:	1
@@ -19,7 +19,7 @@ the language the printer can actually understand.
 %description -l pl
 To jest sterownik dla drukarek Minolta PagePro 1[23]xxW. Aktualnie
 jest w fazie beta rozwoju. Sterownik czyta strumieñ w formacie pbmraw
-wyprodukowanego przez program ghostscript i konwertuje go do jêzyka
+wyprodukowany przez program ghostscript i konwertuje go do jêzyka
 zrozumia³ego przez drukarkê.
 
 %prep
