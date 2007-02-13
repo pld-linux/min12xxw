@@ -1,5 +1,5 @@
 Summary:	Minolta PagePro 1[23]xxW printers driver
-Summary(pl.UTF-8):   Sterownik dla drukarek Minolta PagePro 1[23]xxW
+Summary(pl.UTF-8):	Sterownik dla drukarek Minolta PagePro 1[23]xxW
 Name:		min12xxw
 Version:	0.0.9
 Release:	1
