@@ -2,11 +2,12 @@ Summary:	Minolta PagePro 1[23]xxW printers driver
 Summary(pl.UTF-8):	Sterownik dla drukarek Minolta PagePro 1[23]xxW
 Name:		min12xxw
 Version:	0.0.9
-Release:	1
+Release:	2
 License:	GPL
 Group:		Applications/Graphics
 Source0:	http://www.hinterbergen.de/mala/min12xxw/%{name}-%{version}.tar.gz
 # Source0-md5:	3582da7bd8d2d612b1fbcbfdb8b3239a
+Patch0:		%{name}-%{version}-format-security.patch
 URL:		http://www.hinterbergen.de/mala/min12xxw/
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -24,6 +25,7 @@ zrozumiałego przez drukarkę.
 
 %prep
 %setup -q
+%patch -P0 -p1
 
 %build
 %configure
